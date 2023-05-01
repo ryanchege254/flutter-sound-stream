@@ -179,7 +179,7 @@ public class SoundStreamPlugin : FlutterPlugin,
         }
     }
 
-    override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out String>?,
+    override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out String>,
                                             grantResults: IntArray?): Boolean {
         when (requestCode) {
             audioRecordPermissionCode -> {
